@@ -4,8 +4,8 @@ text=$1
 
 sendKey=${WXSENDKEY}
 title="msg_from_serv00-play"
-#URL="https://sctapi.ftqq.com/$sendKey.send?"
-URL="https://4294.push.ft07.com/send/$sendKey.send?"
+URL="https://sctapi.ftqq.com/$sendKey.send?"
+#URL="https://4294.push.ft07.com/send/$sendKey.send?"
 
 if [[ -z ${sendKey} ]]; then
   echo "未配置微信推送的sendKey,通过 https://sct.ftqq.com/r/13223 注册并登录server酱，取得sendKey"
